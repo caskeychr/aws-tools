@@ -1,0 +1,11 @@
+{
+  "Comment": "Test Workflow for Environment Tests",
+  "StartAt": "Hello World",
+  "States": {
+    "Hello World": {
+      "Type": "Task",
+      "Resource": "arn:aws:lambda:&&Region&&:&&AccountID&&:function:lambdaHelloWorld",
+      "End": true
+    }
+  }
+}

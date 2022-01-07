@@ -1,0 +1,58 @@
+[
+  {
+    "functionName": "IDMP-EnvTest-cloudWatchTest",
+    "fileName": "cloudWatchTest.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  },
+  {
+    "functionName": "IDMP-EnvTest-eventBridgeTest",
+    "fileName": "eventBridgeTest.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  },
+  {
+    "functionName": "IDMP-EnvTest-lambdaTest",
+    "fileName": "lambdaTest.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  },
+  {
+    "functionName": "IDMP-EnvTest-rdsTest",
+    "fileName": "rdsTest.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  },
+  {
+    "functionName": "IDMP-EnvTest-s3Test",
+    "fileName": "s3Test.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  },
+  {
+    "functionName": "IDMP-EnvTest-sesTest",
+    "fileName": "sesTest.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  },
+  {
+    "functionName": "IDMP-EnvTest-stepFunctionTest",
+    "fileName": "stepFunctionTest.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  },
+  {
+    "functionName": "IDMP-EnvTest-lambdaHelloWorld",
+    "fileName": "lambdaHelloWorld.zip",
+    "memorySize": 128,
+    "timeout": 20,
+    "runtime": "nodejs12.x"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "region": "us-west-2",
+  "bucket": "cteicloud",
+  "emailAddress": "chriscaskey@ctex-inc.com",
+  "DBserver": "cteicloud.cbeuevue9btm.us-west-2.rds.amazonaws.com",
+  "DBuser": "cteicloud",
+  "DBpassword": "cteicloud",
+  "DBdatabase": "NCIPC_IDMP",
+  "awsID": "897639566027",
+  "lambdaRole": "arn:aws:iam::897639566027:role/Lambda-Primary",
+  "stepFunctionRole": "arn:aws:iam::897639566027:role/service-role/StatesExecutionRole-us-west-2",
+  "deploymentFiles": {
+    "s3DeploymentFolder": "idmpEnvTestDeploymentFiles/",
+    "subFolders": {
+      "lambdaDeployment": "lambdaFunctions/",
+      "stepFunctions": "stepFunctions/"
+    }
+  }
+}

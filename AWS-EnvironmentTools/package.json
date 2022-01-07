@@ -1,0 +1,18 @@
+{
+  "name": "envtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1046.0",
+    "chalk": "^5.0.0",
+    "clear": "^0.1.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.0"
+  }
+}

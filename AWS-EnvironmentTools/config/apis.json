@@ -1,0 +1,17 @@
+[
+  {
+    "resourceName": "sprintReview1",
+    "httpMethod": "POST",
+    "stateMachine": "IDMP-CSV-Ingestion-Workflow"
+  },
+  {
+    "resourceName": "sprintReview2",
+    "httpMethod": "POST",
+    "stateMachine": "IDMP-DataDictionaryWorkflow"
+  },
+  {
+    "resourceName": "sprintReview3",
+    "httpMethod": "POST",
+    "stateMachine": "IDMP-DataDictionaryWorkflow"
+  }
+]

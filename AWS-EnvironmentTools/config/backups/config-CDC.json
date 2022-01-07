@@ -1,0 +1,23 @@
+{
+  "region": "us-east-1",
+  "bucket": "ahb-idmp-dashboard",
+  "emailAddress": "nod0@cdc.gov",
+  "DBserver": "cteicloud.cdb5wnsukhaw.us-east-1.rds.amazonaws.com",
+  "DBuser": "cteiadmin",
+  "DBpassword": "kEKA4r7HcdsM6psk",
+  "DBdatabase": "NCIPC_IDMP",
+  "awsID": "246333256002",
+  "lambdaRole": "arn:aws:iam::246333256002:role/IDMP-LAMBDA-SERVICE-ROLE",
+  "stepFunctionRole": "arn:aws:iam::246333256002:role/service-role/IDMP-STEPFUNCTION-SERVICE-ROLE",
+  "deploymentFiles": {
+    "s3DeploymentFolder": "idmpEnvTestDeploymentFiles/",
+    "subFolders": {
+      "lambdaDeployment": "lambdaFunctions/",
+      "stepFunctions": "stepFunctions/"
+    }
+  },
+  "lambdaVPCSettings": {
+    "SecurityGroupIds": ["sg-0ef0f76bf46ab6400"],
+    "SubnetIds": ["subnet-4cbe8d67", "subnet-e349a095"]
+  }
+}
